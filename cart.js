@@ -15,11 +15,10 @@ document.addEventListener('DOMContentLoaded', () => {
         cartItemDiv.classList.add('cart-item');
         cartItemDiv.innerHTML = `
             <h2>${name}</h2>
-            <p>Price: $${item.price}</p>
-            <img src = "${item.image}" height = "100px" width = "100px">
+            <p>Price: Rs.${item.price}</p>
             <p>Count: ${itemCounts[name]}</p>
-            <button onclick="removeSingleFromCart('${name}')" style = "background-color: yellow; border-radius:10px">Remove One</button>
-            <button onclick="removeAllFromCart('${name}')" style = "background-color: yellow; border-radius:10px">Remove All</button>
+            <button onclick="removeSingleFromCart('${name}')" style = "background-color: lavender;">Remove One</button>
+            <button onclick="removeAllFromCart('${name}')" style = "background-color: lavender;">Remove All</button>
         `;
         cartList.appendChild(cartItemDiv);
         totalPrice += item.price * itemCounts[name];
@@ -35,6 +34,7 @@ function removeSingleFromCart(name) {
         cart.splice(index, 1);
     }
     localStorage.setItem('cart', JSON.stringify(cart));
+    alert('Item removed');
     location.reload(); // Reload the page to update the cart display
 }
 
@@ -42,5 +42,6 @@ function removeAllFromCart(name) {
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
     cart = cart.filter(item => item.name !== name);
     localStorage.setItem('cart', JSON.stringify(cart));
+    alert('Items removed');
     location.reload(); // Reload the page to update the cart display
 }

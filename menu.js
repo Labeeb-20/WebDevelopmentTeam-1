@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         menuItemDiv.classList.add('menu-item');
         menuItemDiv.innerHTML = `
             <h2>${item.name}</h2>
-            <p>Price: $${item.price}</p>
+            <p>Price: Rs.${item.price}</p>
             <img src = " ${item.image}" width = "100px" height = "100px">
             <button onclick="addToCart('${item.name}', ${item.price})">Add to Cart</button>
         `;
@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function addToCart(name, price) {
+    alert('Item added to cart');
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
     cart.push({ name, price });
     localStorage.setItem('cart', JSON.stringify(cart));

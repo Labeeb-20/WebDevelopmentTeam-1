@@ -1,13 +1,12 @@
 [
-<<<<<<< HEAD
     {
         "name": "Domino's",
         "image": "logo(d).jpg",
         "menu": [
             { "name": "Freshloaded Pizza", "price": 350, "image": "freshloaded.jpeg" },
-            { "name": "Chicken Tikka Pizza", "price": 430, "image": "chicken.jpeg" },
+            { "name": "Chicken Pizza", "price": 430, "image": "chicken.jpeg" },
             { "name": "Garlicbread", "price": 140, "image": "garlicbread.jpeg" },
-            { "name": "Chako Lava Cake", "price": 99, "image": "chakolava.jpeg" },
+            { "name": "Chako Lava Cake", "price": 99, "image": "chakolava.jpg" },
             { "name": "Pepsi", "price": 79, "image": "pepsi.jpeg" }
             
         ],
@@ -17,7 +16,7 @@
         "name": "Meghanas Food",
         "image": "logo(m).png",
         "menu": [
-            { "name": "Paneer Biriyani", "price": 300, "image": "paneer(m).png" },
+            { "name": "Paneer Biriyani", "price": 300, "image": "paneer(m).jpg" },
             { "name": "Chicken Biriyani", "price": 349, "image": "chicken(m).jpg" },
             { "name": "Egg Biriyani", "price": 320, "image": "egg(m).jpg" },
             { "name": "Chicken Tikka", "price": 370, "image": "chickentikka.jpg" },
@@ -41,77 +40,11 @@
         "name": "Snack Zone",
         "image": "logo(s).jpg",
         "menu": [
-            { "name": "Paani poori", "price": 40, "image": "panipoori.jpg" },
+            { "name": "Paani poori", "price": 40, "image": "paanipoori.png" },
             { "name": "Masala poori", "price": 40, "image": "masalapoori.jpg" },
             { "name": "Dahi poori", "price": 45, "image": "dahipoori.jpg" },
             { "name": "Corn Masala", "price": 50, "image": "corn.jpg" },
             { "name": "Belpuri", "price": 40, "image": "belpoori.jpg" }
-=======
-        {
-            "name": "Domino's",
-            "image": "logo(d).jpg",
-            "menu": [
-                { "name": "Freshloaded Pizza", "price": 350, "image": "freshloaded.jpeg" },
-                { "name": "Chicken Tikka Pizza", "price": 430, "image": "chicken.jpeg" },
-                { "name": "Garlicbread", "price": 140, "image": "garlicbread.jpeg" },
-                { "name": "Chako Lava Cake", "price": 99, "image": "chakolava.jpeg" },
-                { "name": "Pepsi", "price": 79, "image": "pepsi.jpeg" }
-                
-            ],
-            "rating": 4.5
-        },
-        {
-            "name": "Meghanas Food",
-            "image": "logo(m).png",
-            "menu": [
-                { "name": "Paneer Biriyani", "price": 300, "image": "paneer(m).png" },
-                { "name": "Chicken Biriyani", "price": 349, "image": "chicken(m).jpg" },
-                { "name": "Egg Biriyani", "price": 320, "image": "egg(m).jpg" },
-                { "name": "Chicken Tikka", "price": 370, "image": "chickentikka.jpg" },
-                { "name": "Paneer65", "price": 280, "image": "paneer65(m).jpg" }
-            ],
-            "rating": 3.8
-        },
-        {
-            "name": "Udupi Gardans",
-            "image": "logo(u).jpg",
-            "menu": [
-                { "name": "Masala Dosa", "price": 80, "image": "masaladosa.jpg" },
-                { "name": "Idly", "price": 40, "image": "idly.jpeg" },
-                { "name": "Poori", "price": 60, "image": "poori.jpg" },
-                { "name": "Bisi Bele Bath", "price": 70, "image": "bisibelebath.jpeg" },
-                { "name": "Upma", "price": 40, "image": "upma.jpg" }
-            ],
-            "rating": 4.2
-        },
-        {
-            "name": "Snack Zone",
-            "image": "logo(s).jpg",
-            "menu": [
-                { "name": "Paani poori", "price": 40, "image": "panipoori.jpg" },
-                { "name": "Masala poori", "price": 40, "image": "masalapoori.jpg" },
-                { "name": "Dahi poori", "price": 45, "image": "dahipoori.jpg" },
-                { "name": "Corn Masala", "price": 50, "image": "corn.jpg" },
-                { "name": "Belpuri", "price": 40, "image": "belpoori.jpg" }
-
-            ],
-            "rating": 4.7
-        },
-        {
-            "name": "Polar Bear",
-            "image": "logo(pb).jpg",
-            "menu": [
-                { "name": "DBC", "price": 260, "image": "dbc.jpeg" },
-                { "name": "Dry Fruit Special", "price": 240, "image": "dryfruitspecial.jpeg" },
-                { "name": "Chako Brownie Fudge", "price": 220, "image": "browniefudge.jpeg" },
-                { "name": "FruitZest", "price": 180, "image": "fruitzest.jpeg" },
-                { "name": "Lychee Sundae", "price": 170, "image": "lychee.jpeg" }
-            ],
-            "rating": 4.0
-        }
-    ]
->>>>>>> 487ceb38c3ca229ad18e39561d6d10105a3e0790
-
         ],
         "rating": 4
     },

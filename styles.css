@@ -24,6 +24,11 @@ header input, header select, header button {
     margin: 0.5rem;
     padding: 0.5rem;
 }
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 #restaurant-list, #menu-list, #cart-list {
     display: flex;
@@ -83,7 +88,8 @@ color: red;
 
 
 body {
-    background: linear-gradient(to right, #ffebcd, #ffe4b5); /* Gradient background color */
+    background-color: #f4f4f4;
+ /* Gradient background color */
             font-family: 'Arial', sans-serif;
             color: #333333;
             margin: 0;

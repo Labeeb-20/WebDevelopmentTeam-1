@@ -19,16 +19,22 @@
             margin: 0;
             padding: 0;
 }
+
+.cart-item{
+    background-color: rgb(255, 255, 255);
+}
     </style>
 </head>
-<body>
+<body bgcolor="#ffe4b5">
     <header>
         <h1>Cart</h1>
     </header>
     <main id="cart-list"></main>
     <footer>
-        <h2>Total: $<span id="total-price">0</span></h2>
+       <center><h2>Total: Rs.<span id="total-price" >0</span></h2></center>  <br>
+       <center><button onclick = "alert('Order Placed')" style="background-color: green; color: white; width: 100px; height: 50px; border-radius: 10px;">Place Order</button></center>
     </footer>
-    <script src="cart.js"></script>
+    <script src="cart.js">
+    </script>
 </body>
 </html>

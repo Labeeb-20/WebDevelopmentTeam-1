@@ -6,16 +6,15 @@
     <title>Restaurant App</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body bgcolor="#ffe4b5">
     <header>
-        <h1><span style = "background-color:rgb(161, 118, 39); border-radius: 10px; padding: 5px;">GFC Restaurant APP</span></h1>
-        <h1><span style = "background-color: rgb(161, 118, 39); border-radius: 10px; padding: 5px;">Restaurant List</span></h1>
+        <h1><span style = "background-color:rgb(161, 118, 39); border-radius: 10px; padding: 5px;">Happy Customer Restaurant</span></h1><br>
+        <h1><span style = "background-color: rgb(161, 118, 39); border-radius: 10px; padding: 5px;">Restaurant List</span></h1><br>
+       <div id="searchmain" style = "display: flex; align-items: center;justify-content: center;">
         <label for="">Fillter By Name :</label>
         <input type="text" id="search" placeholder="Search by name...">
-       <label for="">Fillter By Rating :</label>
-        
-       <div id="searchmain">
-    
+
+        <label for="">Fillter By Rating :</label>
         <select id="rating-filter">
             <option value="">Filter by rating</option>
             <option value="5">5 Stars</option>
@@ -25,15 +24,15 @@
             <option value="1">1 Star</option>
         </select>
     </div>
-    <div id="cartdesign">
+    <!-- <div id="cartdesign">
         <p>Cart</p>
         <p id="price">Total Price:</p>
-    </div>
+    </div> -->
     </header>
     
     <main id="restaurant-list"></main>
 
-    <div class="footer">CopyRight &copy; GFC Restaurant.</div>
+    <div class="footer">CopyRight &copy; Happy Customer Restaurant</div>
     <script src="script.js"></script>
 </body>
 </html>
