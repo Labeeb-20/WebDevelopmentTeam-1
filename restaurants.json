@@ -14,50 +14,50 @@
         },
         {
             "name": "Meghanas Food",
-            "image": "",
+            "image": "logo(m).png",
             "menu": [
-                { "name": "Paneer Biriyani", "price": 300, "image": "" },
-                { "name": "Chicken Biriyani", "price": 349, "image": "" },
-                { "name": "Egg Biriyani", "price": 320, "image": "" },
-                { "name": "Chicken Tikka", "price": 370, "image": "" },
-                { "name": "Paneer65", "price": 280, "image": "" }
+                { "name": "Paneer Biriyani", "price": 300, "image": "paneer(m).png" },
+                { "name": "Chicken Biriyani", "price": 349, "image": "chicken(m).jpg" },
+                { "name": "Egg Biriyani", "price": 320, "image": "egg(m).jpg" },
+                { "name": "Chicken Tikka", "price": 370, "image": "chickentikka.jpg" },
+                { "name": "Paneer65", "price": 280, "image": "paneer65(m).jpg" }
             ],
             "rating": 3.8
         },
         {
             "name": "Udupi Gardans",
-            "image": "",
+            "image": "logo(u).jpg",
             "menu": [
-                { "name": "Masala Dosa", "price": 80, "image": "" },
-                { "name": "Idly", "price": 40, "image": "" },
-                { "name": "Poori", "price": 60, "image": "" },
-                { "name": "Bisi Bele Bath", "price": 70, "image": "" },
-                { "name": "Upma", "price": 40, "image": "" }
+                { "name": "Masala Dosa", "price": 80, "image": "masaladosa.jpg" },
+                { "name": "Idly", "price": 40, "image": "idly.jpeg" },
+                { "name": "Poori", "price": 60, "image": "poori.jpg" },
+                { "name": "Bisi Bele Bath", "price": 70, "image": "bisibelebath.jpeg" },
+                { "name": "Upma", "price": 40, "image": "upma.jpg" }
             ],
             "rating": 4.2
         },
         {
             "name": "Snack Zone",
-            "image": "",
+            "image": "logo(s).jpg",
             "menu": [
-                { "name": "Paani poori", "price": 40, "image": "" },
-                { "name": "Masala poori", "price": 40, "image": "" },
-                { "name": "Dahi poori", "price": 45, "image": "" },
-                { "name": "Corn Masala", "price": 50, "image": "" },
-                { "name": "Belpuri", "price": 40, "image": "" }
+                { "name": "Paani poori", "price": 40, "image": "panipoori.jpg" },
+                { "name": "Masala poori", "price": 40, "image": "masalapoori.jpg" },
+                { "name": "Dahi poori", "price": 45, "image": "dahipoori.jpg" },
+                { "name": "Corn Masala", "price": 50, "image": "corn.jpg" },
+                { "name": "Belpuri", "price": 40, "image": "belpoori.jpg" }
 
             ],
             "rating": 4.7
         },
         {
             "name": "Polar Bear",
-            "image": "",
+            "image": "logo(pb).jpg",
             "menu": [
-                { "name": "DBC", "price": 260, "image": "" },
-                { "name": "Dry Fruit Special", "price": 240, "image": "" },
-                { "name": "Chako Lava Fudge", "price": 220, "image": "" },
-                { "name": "FruitZest", "price": 180, "image": "" },
-                { "name": "Lychee Sundae", "price": 170, "image": "" }
+                { "name": "DBC", "price": 260, "image": "dbc.jpeg" },
+                { "name": "Dry Fruit Special", "price": 240, "image": "dryfruitspecial.jpeg" },
+                { "name": "Chako Brownie Fudge", "price": 220, "image": "browniefudge.jpeg" },
+                { "name": "FruitZest", "price": 180, "image": "fruitzest.jpeg" },
+                { "name": "Lychee Sundae", "price": 170, "image": "lychee.jpeg" }
             ],
             "rating": 4.0
         }
