@@ -8,8 +8,11 @@
 </head>
 <body>
     <header>
-        <h1>Restaurant List</h1>
+        <h1><span style = "background-color:rgb(161, 118, 39); border-radius: 10px; padding: 5px;">GFC Restaurant APP</span></h1>
+        <h1><span style = "background-color: rgb(161, 118, 39); border-radius: 10px; padding: 5px;">Restaurant List</span></h1>
+        <label for="">Fillter By Name :</label>
         <input type="text" id="search" placeholder="Search by name...">
+       <label for="">Fillter By Rating :</label>
         <select id="rating-filter">
             <option value="">Filter by rating</option>
             <option value="5">5 Stars</option>
@@ -20,6 +23,8 @@
         </select>
     </header>
     <main id="restaurant-list"></main>
+
+    <div class="footer">CopyRight &copy; GFC Restaurant.</div>
     <script src="script.js"></script>
 </body>
 </html>

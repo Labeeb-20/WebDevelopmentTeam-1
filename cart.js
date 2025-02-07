@@ -16,9 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
         cartItemDiv.innerHTML = `
             <h2>${name}</h2>
             <p>Price: $${item.price}</p>
+            <img src = "${item.image}" height = "100px" width = "100px">
             <p>Count: ${itemCounts[name]}</p>
-            <button onclick="removeSingleFromCart('${name}')">Remove One</button>
-            <button onclick="removeAllFromCart('${name}')">Remove All</button>
+            <button onclick="removeSingleFromCart('${name}')" style = "background-color: yellow; border-radius:10px">Remove One</button>
+            <button onclick="removeAllFromCart('${name}')" style = "background-color: yellow; border-radius:10px">Remove All</button>
         `;
         cartList.appendChild(cartItemDiv);
         totalPrice += item.price * itemCounts[name];
