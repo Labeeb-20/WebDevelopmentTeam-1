@@ -8,8 +8,11 @@
 </head>
 <body>
     <header>
-        <h1>Restaurant List</h1>
-        <input type="text" id="search" placeholder="Search by name...">
+        <h2>CFG Restaurant APP</h2>
+        <h3>Restaurant List</h3>
+        <div id="searchmain">
+        
+        <label for="">Filter By Rating:</label>
         <select id="rating-filter">
             <option value="">Filter by rating</option>
             <option value="5">5 Stars</option>
@@ -18,7 +21,15 @@
             <option value="2">2 Stars</option>
             <option value="1">1 Star</option>
         </select>
+        <label for="">Search By Name:</label> 
+        <input type="text" id="search" placeholder="Search by name...">
+    </div>
+    <div id="cartdesign">
+        <p>Cart</p>
+        <p id="price">Total Price:</p>
+    </div>
     </header>
+    
     <main id="restaurant-list"></main>
     <script src="script.js"></script>
 </body>
