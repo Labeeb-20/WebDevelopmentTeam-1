@@ -1,51 +1,65 @@
-[ {
-            "name": "Italian Delight",
-            "image": "pexels-chan-walrus-958545-(1).jpg",
+[
+        {
+            "name": "Domino's",
+            "image": "",
             "menu": [
-                { "name": "Pasta Alfredo", "price": 10, "image": "camera.png" },
-                { "name": "Margherita Pizza", "price": 15, "image": "file.jpg" },
-                { "name": "Chicken Parmesan", "price": 20, "image": "file.jpg" }
+                { "name": "Freshloaded Pizza", "price": 350, "image": "" },
+                { "name": "Chicken Tikka Pizza", "price": 430, "image": "" },
+                { "name": "Garlicbread", "price": 140, "image": "" },
+                { "name": "Chako Lava Cake", "price": 99, "image": "" },
+                { "name": "Pepsi", "price": 79, "image": "" }
+                
             ],
             "rating": 4.5
         },
         {
-            "name": "Seafood Paradise",
-            "image": "pexels-chan-walrus-958545-(1).jpg",
+            "name": "Meghanas Food",
+            "image": "",
             "menu": [
-                { "name": "Grilled Salmon", "price": 12, "image": "pexels-chan-walrus-958545-(1).jpg" },
-                { "name": "Lobster Bisque", "price": 18, "image": "pexels-chan-walrus-958545-(1).jpg" },
-                { "name": "Shrimp Scampi", "price": 25, "image": "pexels-chan-walrus-958545-(1).jpg" }
+                { "name": "Paneer Biriyani", "price": 300, "image": "" },
+                { "name": "Chicken Biriyani", "price": 349, "image": "" },
+                { "name": "Egg Biriyani", "price": 320, "image": "" },
+                { "name": "Chicken Tikka", "price": 370, "image": "" },
+                { "name": "Paneer65", "price": 280, "image": "" }
             ],
             "rating": 3.8
         },
         {
-            "name": "Vegetarian Haven",
-            "image": "pexels-chan-walrus-958545-(1).jpg",
+            "name": "Udupi Gardans",
+            "image": "",
             "menu": [
-                { "name": "Quinoa Salad", "price": 8, "image": "pexels-chan-walrus-958545-(1).jpg" },
-                { "name": "Eggplant Parmesan", "price": 12, "image": "pexels-chan-walrus-958545-(1).jpg" },
-                { "name": "Mushroom Risotto", "price": 16, "image": "pexels-chan-walrus-958545-(1).jpg" }
+                { "name": "Masala Dosa", "price": 80, "image": "" },
+                { "name": "Idly", "price": 40, "image": "" },
+                { "name": "Poori", "price": 60, "image": "" },
+                { "name": "Bisi Bele Bath", "price": 70, "image": "" },
+                { "name": "Upma", "price": 40, "image": "" }
             ],
             "rating": 4.2
         },
         {
-            "name": "Sizzling Steakhouse",
-            "image": "pexels-chan-walrus-958545-(1).jpg",
+            "name": "Snack Zone",
+            "image": "",
             "menu": [
-                { "name": "Filet Mignon", "price": 22, "image": "pexels-chan-walrus-958545-(1).jpg" },
-                { "name": "New York Strip", "price": 18, "image": "pexels-chan-walrus-958545-(1).jpg" },
-                { "name": "Ribeye Steak", "price": 25, "image": "pexels-chan-walrus-958545-(1).jpg" }
+                { "name": "Paani poori", "price": 40, "image": "" },
+                { "name": "Masala poori", "price": 40, "image": "" },
+                { "name": "Dahi poori", "price": 45, "image": "" },
+                { "name": "Corn Masala", "price": 50, "image": "" },
+                { "name": "Belpuri", "price": 40, "image": "" }
+
             ],
             "rating": 4.7
         },
         {
-            "name": "Asian Fusion",
-            "image": "pexels-chan-walrus-958545-(1).jpg",
+            "name": "Polar Bear",
+            "image": "",
             "menu": [
-                { "name": "Sushi Platter", "price": 20, "image": "pexels-chan-walrus-958545-(1).jpg" },
-                { "name": "Pad Thai", "price": 15, "image": "pexels-chan-walrus-958545-(1).jpg" },
-                { "name": "Mongolian Beef", "price": 18, "image": "pexels-chan-walrus-958545-(1).jpg" }
+                { "name": "DBC", "price": 260, "image": "" },
+                { "name": "Dry Fruit Special", "price": 240, "image": "" },
+                { "name": "Chako Lava Fudge", "price": 220, "image": "" },
+                { "name": "FruitZest", "price": 180, "image": "" },
+                { "name": "Lychee Sundae", "price": 170, "image": "" }
             ],
             "rating": 4.0
         }
-]
+    ]
+
