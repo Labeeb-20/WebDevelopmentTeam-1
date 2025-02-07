@@ -67,20 +67,22 @@ header h2,h3{
 
 #cartdesign{
     /* border: 2px solid rgb(25, 164, 25); */
-    width: 150px;
+    width: 200px;
     height: 50px;
     position: absolute;
     right: 5px;
-    top: 80px;
+    top: 130px;
     border-radius: 10px;
-    padding-top: 60px;
+    display: flex;
+    justify-content: start;
+    padding-top: 12px;
 }
 #cartdesign a{
     text-decoration: none;
     color: #fff;
-    margin: 5px;
     font-weight: bold;
     font-style: italic;
+    margin:0 10px 0 10px;
 }
 
 #cartdesign1{

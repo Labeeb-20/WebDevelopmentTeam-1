@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant App</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const totalPriceElement = document.getElementById('totalprice');
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    let totalPrice = 0;
+
+    cart.forEach(item => {
+        totalPrice += item.price;
+    });
+
+    totalPriceElement.innerHTML = `Total Price: Rs.${totalPrice.toFixed(2)}`;
+});
+
+    </script>
 </head>
 <body bgcolor="#ffe4b5">
     <header>
@@ -25,8 +39,8 @@
         </select>
     </div>
     <div id="cartdesign">
-        <a href="index.html">Home</a>
         <a href="cart.html">Cart</a>
+        <p id="totalprice">Total Price: </p>
     </div>
     </header>
     
