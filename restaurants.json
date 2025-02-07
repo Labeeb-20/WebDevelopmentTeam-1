@@ -1,13 +1,13 @@
 [
         {
             "name": "Domino's",
-            "image": "",
+            "image": "logo(d).jpg",
             "menu": [
-                { "name": "Freshloaded Pizza", "price": 350, "image": "" },
-                { "name": "Chicken Tikka Pizza", "price": 430, "image": "" },
-                { "name": "Garlicbread", "price": 140, "image": "" },
-                { "name": "Chako Lava Cake", "price": 99, "image": "" },
-                { "name": "Pepsi", "price": 79, "image": "" }
+                { "name": "Freshloaded Pizza", "price": 350, "image": "freshloaded.jpeg" },
+                { "name": "Chicken Tikka Pizza", "price": 430, "image": "chicken.jpeg" },
+                { "name": "Garlicbread", "price": 140, "image": "garlicbread.jpeg" },
+                { "name": "Chako Lava Cake", "price": 99, "image": "chakolava.jpeg" },
+                { "name": "Pepsi", "price": 79, "image": "pepsi.jpeg" }
                 
             ],
             "rating": 4.5
